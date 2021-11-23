@@ -78,11 +78,8 @@ p.mb-0,
 h3.h3.mb-4 {
   font-weight: 400;
 }
-.row.match-my-cols {
-  overflow: hidden;
-}
 
-#line2 {
+#line1 {
   background-color: #47d7ba;
   height: 90px;
   transform: rotate(90deg);
