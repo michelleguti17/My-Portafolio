@@ -78,16 +78,15 @@ p.mb-0,
 h3.h3.mb-4 {
   font-weight: 400;
 }
-
-#first-hr {
-  height: 100%;
-  transform: rotate(90deg);
-  background-color: #006d77;
+.row.match-my-cols {
+  overflow: hidden;
 }
-#second-hr {
-  background-color: #47d7ba;
 
+#line2 {
+  background-color: #47d7ba;
+  height: 90px;
   transform: rotate(90deg);
+  margin-left: -90em;
 }
 .filters a.active {
   color: #000;
@@ -383,7 +382,7 @@ h3.h3.mb-4 {
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #47d7ba;
+  background: #006d77;
 }
 
 .custom-navmenu .custom-menu,
